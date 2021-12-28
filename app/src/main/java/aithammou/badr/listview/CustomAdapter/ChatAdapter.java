@@ -23,6 +23,11 @@ public class ChatAdapter extends BaseAdapter {
         this.list_user = list_user;
     }
 
+
+    
+
+
+
     @Override
     public int getCount() {
         return list_user.size();
