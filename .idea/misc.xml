@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/botom_menu.xml" value="0.5" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/chat_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/fragment_chat.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/fragment_profile.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/home_layout.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/img_layout.xml" value="0.29491525423728815" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/item_chat_layout.xml" value="0.6" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/menu/b_menu.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
