@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginRegister.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Sign In"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textColorLink="@color/black"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorLink="@color/black"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></EditText>
+
+
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/gotoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:backgroundTint="@color/black"
+        android:layout_margin="10dp"
+        />
+
+
+
+
+
+</LinearLayout>

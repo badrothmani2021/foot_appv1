@@ -4,31 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#1D1D1D"
-    tools:context=".Interface.MainActivity">
+    tools:context=".Interface.Search">
 
-    <TextView
-        android:layout_width="fill_parent"
+
+    <SearchView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="La creme de la creme"
-        android:textStyle="bold"
-        android:layout_margin="10dp"
-        android:textSize="25dp"
-        android:layout_gravity="top"
-        android:textColor="@color/white"/>
-
-
-
-    <!--    Listview   -->
-    <ListView
-        android:id="@+id/listpost"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-         />
-
-
+        android:layout_margin="8dp"
+        tools:ignore="MissingConstraints"></SearchView>
 
 
     <!--    Bottom bar design-->
@@ -51,13 +34,15 @@
             app:itemIconTint="@color/bottom_back_select"
             app:itemTextColor="@color/bottom_back_select"
             />
-<!-- app:labelVisibilityMode="labeled"-->
+        <!-- app:labelVisibilityMode="labeled"-->
     </com.google.android.material.bottomappbar.BottomAppBar>
 
 
-          <!--    add button-->
+
+
+    <!--    add button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add_button"
+        android:id="@+id/add_button_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"

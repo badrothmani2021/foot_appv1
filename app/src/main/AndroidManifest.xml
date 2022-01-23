@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Listview">
         <activity
-            android:name=".MainActivity"
+            android:name=".Interface.UploadPost"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Welcome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,6 +24,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Interface.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginRegister.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Search"
+            android:exported="false" />
+        <activity
+            android:name=".Interface.Chat"
+            android:exported="false" />
+        <activity
+            android:name=".loginRegister.Register"
+            android:exported="true" />
     </application>
 
 </manifest>

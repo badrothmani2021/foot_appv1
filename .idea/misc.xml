@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/drawable/edittext.xml" value="0.3255208333333333" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.13518518518518519" />
-        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/drawable/mybutton.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_addpublication.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_main.xml" value="0.24489795918367346" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/activity_signin.xml" value="0.11574074074074074" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/botom_menu.xml" value="0.5" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/chat_layout.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/fragment_chat.xml" value="0.309375" />
@@ -12,8 +18,47 @@
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/fragment_profile.xml" value="0.1287037037037037" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/home_layout.xml" value="0.309375" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/img_layout.xml" value="0.29491525423728815" />
-        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/item_chat_layout.xml" value="0.6" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/item_chat_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/layout_chat.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/layout/layout_item_home.xml" value="0.309375" />
         <entry key="..\:/Users/Original Shop/AndroidStudioProjects/Listview2/app/src/main/res/menu/b_menu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/app for test/Listview2test/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/app for test/Listview2test/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/app for test/Listview2test/app/src/main/res/layout/activity_sign_up.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/app for test/Listview2test/app/src/main/res/layout/layout_item_home.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.1/app/src/main/res/layout/activity_Register.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.1/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.1/app/src/main/res/layout/activity_register.xml" value="0.19811320754716982" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.1/app/src/main/res/layout/activity_sign_up.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.1/app/src/main/res/layout/activity_welcome.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/layout/activity_admin.xml" value="0.1685185185185185" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/layout/activity_login.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/layout/activity_profile.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/layout/activity_register.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/layout/layout_chat.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.2/app/src/main/res/menu/b_menu.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.3/app/src/main/res/layout/activity_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.4/app/src/main/res/layout/activity_profile.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/activity_admin.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/activity_profile.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/activity_search.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/activity_upload_post.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app v1.5/app/src/main/res/layout/layout_chat.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/drawable/design.xml" value="0.1" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/drawable/edittext.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/drawable/ic_wave.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/drawable/round_outline.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_login.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_profile.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_search.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_sign_up.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/activity_welcome.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/item_chat_layout.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/layout_chat.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/layout/layout_item_home.xml" value="0.309375" />
+        <entry key="..\:/Users/Original Shop/Documents/Mobile/food app/Food app/app/src/main/res/menu/b_menu.xml" value="0.309375" />
       </map>
     </option>
   </component>

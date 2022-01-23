@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import aithammou.badr.listview.Post;
+import aithammou.badr.listview.Model.Post;
 import aithammou.badr.listview.R;
 
 public class PostAdapter extends BaseAdapter {
@@ -47,7 +47,7 @@ public class PostAdapter extends BaseAdapter {
 
         if(convertView == null){
             convertView = LayoutInflater.from(context).
-                    inflate(R.layout.fragment_home,parent,false);
+                    inflate(R.layout.layout_item_home,parent,false);
         }
 
         Post currentPost = (Post)  getItem(position);
@@ -66,7 +66,7 @@ public class PostAdapter extends BaseAdapter {
         texttitre.setText(currentPost.getTitre());
         textdesc.setText(currentPost.getDesc());
         textduree.setText(currentPost.getDuree());
-        texteva.setText(currentPost.getEva()+"");
+
         image.setImageResource(R.drawable.f1);
 
         return convertView;

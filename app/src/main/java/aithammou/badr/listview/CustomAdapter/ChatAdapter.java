@@ -5,13 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
 
 import aithammou.badr.listview.R;
-import aithammou.badr.listview.User;
+import aithammou.badr.listview.Model.User;
 
 public class ChatAdapter extends BaseAdapter {
 
@@ -22,10 +22,6 @@ public class ChatAdapter extends BaseAdapter {
         this.context = context;
         this.list_user = list_user;
     }
-
-
-    
-
 
 
     @Override
@@ -51,10 +47,20 @@ public class ChatAdapter extends BaseAdapter {
                     inflate(R.layout.item_chat_layout,parent,false);
         }
 
-        User current = (User) getItem(position);
+        User currentuser = (User) getItem(position);
+
+        TextView textnom = (TextView)
+                convertView.findViewById(R.id.user_name_chat);
+        TextView textchat = (TextView)
+                convertView.findViewById(R.id.chattext);
+        ImageView imageuser = (ImageView)
+                convertView.findViewById(R.id.image_chat_user);
+
+        textnom.setText((currentuser.getNom()));
+        textchat.setText((currentuser.getChattext()));
+        imageuser.setImageResource(R.drawable.badr);
 
 
-
-        return null;
+        return convertView;
     }
 }

@@ -1,7 +1,5 @@
-package aithammou.badr.listview;
+package aithammou.badr.listview.Model;
 
-import android.os.Parcel;
-import android.os.Parcelable;
 
 public class Post  {
 
@@ -10,13 +8,14 @@ public class Post  {
    private String desc;
    private String duree;
    private String img;
-   private double eva;
 
-    public Post( String titre, String desc, String duree,  double eva) {
+
+    public Post( String titre, String desc, String duree,String img) {
         this.titre = titre;
         this.desc = desc;
         this.duree = duree;
-        this.eva = eva;
+        this.img = img;
+
     }
 
     public int getId() {
@@ -59,11 +58,5 @@ public class Post  {
         this.img = img;
     }
 
-    public double getEva() {
-        return eva;
-    }
 
-    public void setEva(double eva) {
-        this.eva = eva;
-    }
 }

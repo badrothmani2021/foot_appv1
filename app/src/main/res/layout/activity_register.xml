@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginRegister.Register"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Sign Up"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textColorLink="@color/black"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></EditText>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email adresse"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textColorLink="@color/black"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textColorLink="@color/black"
+        android:background="@drawable/edittext"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        ></EditText>
+
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:background="@drawable/edittext"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+   />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register as admin"
+        ></CheckBox>
+
+    <CheckBox
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register as client"
+        ></CheckBox>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Create acount"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        ></Button>
+
+
+    <Button
+        android:id="@+id/gotologin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        ></Button>
+
+
+
+</LinearLayout>
